@@ -2,6 +2,11 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
 import "./Style.css"
 
+
+
+export const metadata = {
+  title: 'Login page for behzad agadam farid'
+}
 export default function Login() {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
